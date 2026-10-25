@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: DEV_DB
+    schema: BRONZE
+    tables:
+      - name: raw_customers
+      - name: raw_events
